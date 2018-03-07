@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+	"name": "BDERL SPOTLIGHT",
+	"description": "Bangladesh Digital Education Research Limited",
+	"version": "1",
+	"author": "Mohammad Ali and Kafi",
+	"browser_action": {
+		"default_icon": "images/fav.png",
+		"default_title": "BDERL SPOTLIGHT"
+	},
+	"chrome_url_overrides" : {
+		"newtab": "newtab.html"
+	},
+	"permissions": [
+		"activeTab",
+		"tabs"
+	],
+	"content_security_policy":"script-src 'self' https://*.firebaseio.com; object-src 'self'"
+}
